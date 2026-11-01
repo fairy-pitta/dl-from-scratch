@@ -36,6 +36,8 @@ vol3/
 - Volumes ❸ and ❺ are organized by **steps** in the books, so they use
   `volN/stepMM/` instead (e.g. `vol3/step12/`).
 - Shared helpers for a volume go in `volN/common/`.
+- File names are lowercase `snake_case` describing the content
+  (`sigmoid.py`, `three_layer_net.py`) — no hyphens, so files stay importable.
 
 Chapter directories are created when I start a chapter, not ahead of time.
 
@@ -43,7 +45,7 @@ Chapter directories are created when I start a chapter, not ahead of time.
 
 | Vol | Status | Furthest chapter | Notes |
 | --- | --- | --- | --- |
-| ❶ | in progress | – | |
+| ❶ | in progress | ch03 | |
 | ❷ | not started | – | |
 | ❸ | not started | – | |
 | ❹ | not started | – | |
